@@ -150,6 +150,10 @@ body {
 
 /* ----------OUR TEAM--------- */
 
+.team-card {
+  padding: 20px;
+}
+
 .our-team {
   background-color: var(--cloud-color);
   text-align: center;
@@ -191,12 +195,17 @@ body {
 }
 
 .footer p {
+  margin: 0;
+}
+
+.footer p {
   width: 100%;
 }
 
 .footer .logo {
   order: 1;
   flex-grow: 0;
+  text-align: center;
 }
 
 .footer .contact-info {
