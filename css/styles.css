@@ -21,14 +21,12 @@ body {
 /* ----------HEADER--------- */
 .header {
   font-size: 16px;
-  line-height: 1.5;
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
   color: var(--links-text-color);
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -76,7 +74,6 @@ body {
 .hero-caption {
   font-family: "Roboto";
   font-size: 56px;
-  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--secondary-color);
   text-align: center;
@@ -87,7 +84,6 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
@@ -113,14 +109,12 @@ body {
 /* ----------GOALS--------- */
 .goals {
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 .goals-subtitle {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
@@ -128,7 +122,6 @@ body {
 /* -------WHAT ARE WE DOING------ */
 .sections-title {
   font-size: 36px;
-  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -136,7 +129,6 @@ body {
 }
 
 .hidden {
-  position: absolute;
   white-space: nowrap;
   overflow: hidden;
   border: 0;
@@ -146,8 +138,6 @@ body {
 }
 
 /* ----------OUR TEAM--------- */
-.team-card {
-}
 
 .our-team {
   background-color: var(--cloud-color);
@@ -163,19 +153,16 @@ body {
   color: var(--navy-blue);
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .job-description {
   font-size: 16px;
-  line-height: 1.5;
 }
 
 /* ----------FOOTER--------- */
 .footer {
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--navy-blue);
   color: var(--cloud-color);
@@ -187,10 +174,6 @@ body {
 
 .footer .logo {
   text-align: center;
-}
-
-.footer .logo img {
-  max-width: 100%;
 }
 
 .footer .contact-info a {
@@ -218,7 +201,6 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
@@ -226,7 +208,6 @@ body {
 .example-description {
   font-family: inherit;
   font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
