@@ -1,10 +1,4 @@
 /* pallete */
-/* iris rgba(77, 90, 229, 1) links colors*/
-/* ocean rgba(64, 75, 191, 1) */
-/* NAVY BLUE rgba(46, 47, 66, 1) overlay color*/
-/* SLATE rgba(67, 68, 85, 1) body text color*/
-/* cloud-color rgba(244, 244, 253, 1) */
-
 :root {
   --primary-text-color: #434455;
   --secondary-color: #ffffff;
@@ -17,6 +11,7 @@
 .list {
   list-style: none;
 }
+
 body {
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
@@ -28,6 +23,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -71,6 +67,7 @@ body {
 .link:focus {
   color: var(--ocean);
 }
+
 /* ----------HERO--------- */
 .hero {
   background-color: var(--navy-blue);
@@ -94,11 +91,13 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
+
 .button:hover,
 .button:focus {
   background-color: var(--ocean);
   color: var(--secondary-color);
 }
+
 /* ----------button hero--------- */
 .hero-button {
   color: var(--secondary-color);
@@ -117,6 +116,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .goals-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -176,6 +176,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
 }
+
 /* ----------FOOTER--------- */
 
 .footer {
