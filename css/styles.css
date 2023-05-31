@@ -1,0 +1,209 @@
+/* pallete */
+/* iris rgba(77, 90, 229, 1) links colors*/
+/* ocean rgba(64, 75, 191, 1) */
+/* NAVY BLUE rgba(46, 47, 66, 1) overlay color*/
+/* SLATE rgba(67, 68, 85, 1) body text color*/
+/* cloud-color rgba(244, 244, 253, 1) */
+
+:root {
+  --primary-text-color: #434455;
+  --secondary-color: #ffffff;
+  --navy-blue: #2e2f42;
+  --links-text-color: #4d5ae5;
+  --cloud-color: #f4f4fd;
+  --ocean: #404bbf;
+}
+
+.list {
+  list-style: none;
+}
+body {
+  color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-color);
+}
+
+/* ----------HEADER--------- */
+.header {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--links-text-color);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.logo-secondary {
+  color: var(--navy-blue);
+}
+
+.logo-secondary-alt {
+  color: var(--cloud-color);
+}
+
+.header-nav {
+  font-family: inherit;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+  font-style: normal;
+}
+
+.address {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--ocean);
+}
+/* ----------HERO--------- */
+.hero {
+  background-color: var(--navy-blue);
+}
+
+.hero-caption {
+  font-family: "Roboto";
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+/* ----------buttons--------- */
+.button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--ocean);
+  color: var(--secondary-color);
+}
+/* ----------button hero--------- */
+.hero-button {
+  color: var(--secondary-color);
+  background-color: var(--links-text-color);
+}
+
+/* --------buttons portfolio------- */
+.portfolio-button {
+  background-color: var(--cloud-color);
+  color: var(--links-text-color);
+}
+
+/* ----------GOALS--------- */
+.goals {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+}
+.goals-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+/* -------WHAT ARE WE DOING------ */
+.sections-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* ----------OUR TEAM--------- */
+
+.our-team {
+  background-color: var(--cloud-color);
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.team-card {
+  background-color: var(--secondary-color);
+}
+
+.worker-name {
+  color: var(--navy-blue);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.job-description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+/* ----------FOOTER--------- */
+
+.footer {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  background-color: var(--navy-blue);
+  color: var(--cloud-color);
+}
+
+/* ------PAGE 2----- */
+
+/* PROJECTS EXAMPLE */
+.examples {
+  text-decoration: none;
+}
+
+.example-title {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.example-description {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
