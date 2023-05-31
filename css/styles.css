@@ -138,18 +138,16 @@ body {
 .hidden {
   position: absolute;
   white-space: nowrap;
-  width: 1px;
-  height: 1px;
   overflow: hidden;
-  border: 0;
-  padding: 0;
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
   margin: -1px;
+  padding: 0;
+  border: 0;
 }
 
 /* ----------OUR TEAM--------- */
-
 .team-card {
   padding: 20px;
 }
@@ -178,7 +176,6 @@ body {
 }
 
 /* ----------FOOTER--------- */
-
 .footer {
   font-size: 16px;
   line-height: 1.5;
@@ -190,7 +187,6 @@ body {
   align-items: center;
   padding: 20px;
   flex-direction: column;
-  gap: 10px;
   border-radius: 5px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -204,30 +200,20 @@ body {
 }
 
 .footer .logo {
-  order: 1;
-  flex-grow: 0;
   text-align: center;
 }
 
 .footer .contact-info {
-  order: 2;
-  flex-grow: 0;
 }
 
 .footer .social-media {
-  order: 3;
-  flex-grow: 0;
 }
 
 .footer .privacy-policy {
-  order: 4;
-  flex-grow: 0;
   border-bottom: 1px solid var(--cloud-color);
 }
 
 .footer .terms-conditions {
-  order: 5;
-  flex-grow: 0;
 }
 
 .footer .logo img {
@@ -249,7 +235,6 @@ body {
 }
 
 /* ------PAGE 2----- */
-
 /* PROJECTS EXAMPLE */
 .examples {
   text-decoration: none;
